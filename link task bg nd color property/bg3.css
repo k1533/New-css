@@ -1,0 +1,55 @@
+div{
+    width: 300px;
+    height: 250px;
+    border: 20px dashed whitesmoke;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+.class1{
+        
+      background-image: url("image1.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+      background-origin: padding-box;
+      background-origin: content-box;
+      background-origin: border-box;
+      overflow: auto;
+      background-attachment: local;
+}
+
+
+.class2{
+     
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url("image2.jpeg");
+    background-repeat: no-repeat;
+
+    background-clip: padding-box;
+    background-clip: border-box;
+    overflow: auto;
+    background-attachment: fixed;
+    
+}
+
+body{
+      
+    border: 10px dashed whitesmoke;
+    background-image: url("image2.jpeg");
+    background-size: 100% 100%;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    height: 800%;
+    width: 100%px;
+    
+
+    background-attachment: fixed;
+    background-attachment: local;
+    background-attachment: scroll;
+
+
+}

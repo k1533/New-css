@@ -1,0 +1,104 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://discovertemplate.com/wp-content/uploads/2023/02/DT_AP01_Motorcycle-driving_600.gif');
+    /* background-repeat: no-repeat; */
+    background-size: cover;    
+}
+.car{
+    height:320px ;
+    width: 391px;
+    background-size: cover;
+    animation-name: car;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.blash{
+    height:0px ;
+    width: 0px;
+    background-size: cover;
+    animation-name: blash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+@keyframes blash{
+    0%{
+        height: 0px;
+        width: 0px;
+        background-image: url('https://media.istockphoto.com/id/1191819966/photo/abstract-bullet.webp?b=1&s=170667a&w=0&k=20&c=jI8-3geDY1S28PLC_57ubZNlA2rtJ8P7jj6SeHyADpg=');
+        bottom: -100px;
+        left:35%;
+    }
+    25%{
+        height: 0px;
+        width: 0px;
+        background-image: url('https://media.istockphoto.com/id/1191819966/photo/abstract-bullet.webp?b=1&s=170667a&w=0&k=20&c=jI8-3geDY1S28PLC_57ubZNlA2rtJ8P7jj6SeHyADpg=');
+        bottom: -10px;
+        left:35%;
+    }
+    50%{
+        height: 0px;
+        width: 0px;
+        background-image: url('https://media.istockphoto.com/id/1191819966/photo/abstract-bullet.webp?b=1&s=170667a&w=0&k=20&c=jI8-3geDY1S28PLC_57ubZNlA2rtJ8P7jj6SeHyADpg=');
+        bottom: 0px;
+        left:35%;
+    }
+    75%{
+        height: 100px;
+        width: 100px;
+        background-image: url('https://media.istockphoto.com/id/1191819966/photo/abstract-bullet.webp?b=1&s=170667a&w=0&k=20&c=jI8-3geDY1S28PLC_57ubZNlA2rtJ8P7jj6SeHyADpg=');
+        bottom: 100px;
+        left:35%;
+    }
+    100%{
+        height: 211px;
+        width: 211px;
+        background-image: url('https://media.istockphoto.com/id/1191819966/photo/abstract-bullet.webp?b=1&s=170667a&w=0&k=20&c=jI8-3geDY1S28PLC_57ubZNlA2rtJ8P7jj6SeHyADpg=');
+        bottom: 199px;
+        left:35%;
+    }
+}
+
+@keyframes car{
+    0%{
+        background-image: url('https://th.bing.com/th/id/OIP.rvai3ifb1IcFeI3l8X84SQHaEc?rs=1&pid=ImgDetMain');     
+        margin: center;
+        left: 0px;
+
+    }
+    25%{
+        background-image: url('https://th.bing.com/th/id/OIP.rvai3ifb1IcFeI3l8X84SQHaEc?rs=1&pid=ImgDetMain');
+    
+        margin: center;
+        /* bottom: 50%; */
+        left:10px;
+
+    }
+    50%{
+        background-image: url('https://th.bing.com/th/id/OIP.rvai3ifb1IcFeI3l8X84SQHaEc?rs=1&pid=ImgDetMain');
+        margin: center;
+        /* bottom: 50%; */
+        left:15px;
+
+    }
+    75%{
+        background-image: url('https://th.bing.com/th/id/OIP.rvai3ifb1IcFeI3l8X84SQHaEc?rs=1&pid=ImgDetMain');
+        margin: center;
+        /* bottom: 50%; */
+        left: 15px;
+    }
+    100%{
+        background-image: url('https://th.bing.com/th/id/OIP.rvai3ifb1IcFeI3l8X84SQHaEc?rs=1&pid=ImgDetMain');
+        margin: center;
+        /* bottom: 50%; */
+        left: 15px;
+    }
+}

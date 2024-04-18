@@ -1,0 +1,44 @@
+div{
+    height: 600px;
+    width: 40px;
+    margin: auto;
+    border: 8px dashed whitesmoke;
+    margin-top: 12px;
+    padding: 35px;
+    overflow: auto;
+    background-color: greenyellow;
+   
+}
+
+body{
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("image2.jpg"),url("image1.jpg");
+    background-color: lightblue;
+    background-color: gray;
+}
+
+body{
+
+  /*background-blend-mode: color;
+  background-blend-mode: color-burn;
+  background-blend-mode: color-dodge;
+  background-blend-mode: darken;
+  background-blend-mode: difference;
+  background-blend-mode:exclusion;
+  background-blend-mode:hard-light;
+  background-blend-mode:hue;
+  background-blend-mode:lighten;
+  background-blend-mode:luminosity;
+  background-blend-mode:multiply;
+  background-blend-mode:normal;
+  background-blend-mode:overlay;
+  background-blend-mode:saturation;
+  background-blend-mode:screen;
+  background-blend-mode:soft-light;
+  background-blend-mode:inherit;
+  background-blend-mode:initial;
+  background-blend-mode:unset;*/
+  background-blend-mode: color-burn; 
+}

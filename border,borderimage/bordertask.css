@@ -1,0 +1,123 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKRNJfjt5HNMnkVASvOuf_rH8TtQKp_o2qvw&usqp=CAU);
+    background-attachment: scroll;
+    background-repeat:round;
+    background-size: 300px 250px;
+}
+div{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+
+.class1{
+        
+      background-image: url("taj2.jpeg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      border-radius: 10px 30px 60px 60px;
+      border-style: dashed;
+      border-width: 10px;
+      border-color: black;
+      background-origin: padding-box;
+}
+
+
+.class2{
+     
+    background-color: black;
+    background-size: 100% 100%;
+    border: 12px dotted gray;
+    border-top-left-radius: 85px;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 58px;
+    border-bottom-left-radius: 90px;
+    background-image: url("TAJ.jpeg");
+    background-repeat: no-repeat;
+
+    background-origin: padding-box;
+
+   
+    
+}
+
+.class3{
+     
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url("NAIGRA.jpeg");
+    background-repeat: no-repeat;
+    border-style: groove double ridge dashed;
+    border-radius: 45px 75px 90px 102px;
+    border-width: 10px 15px 5px 25px;
+    border-color: blue;
+    background-origin: padding-box;   
+    
+}
+
+
+#id1{
+     
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url("BURJ.jpeg");
+    background-repeat: no-repeat;
+    border-style: double;
+    border-radius: 120px;
+    border-color: burlywood;
+    border-width: 14px;
+    background-origin: padding-box;
+    
+}
+
+#id2{
+     
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url("BURJ2.jpeg");
+    background-repeat: no-repeat;
+   border-color: red green blue aquamarine;
+    border-top-left-radius: 105px;
+    border-bottom-right-radius: 99px;
+    border-top-right-radius: 112px;
+    border-bottom-left-radius: 108px;
+    border-style: solid dashed groove double;
+    border-width: 20px;
+    background-origin: padding-box;
+  
+}
+#id3{
+     
+    ackground-color: black;
+    background-size: 100% 100%;
+    background-image: url("effil.jpeg");
+    background-repeat: no-repeat;
+   border-color: red green blue aquamarine;
+    border-top-left-radius: 105px;
+    border-bottom-right-radius: 99px;
+    border-top-right-radius: 112px;
+    border-bottom-left-radius: 108px;
+    border-style: groove double;
+    border-width: 20px;
+    background-origin: padding-box;
+}
+
+.k {
+
+    background-color: black;
+    background-size: 100% 100%;
+    background-image: url("CA.jpeg");
+    background-repeat: no-repeat;
+    border-color:blue aquamarine;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 115px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-style:  dashed  double;
+    border-width: 12px 15px 10px 17px;
+    background-origin: padding-box;
+
+}

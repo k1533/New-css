@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+}
+.outer1{
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: stretch;
+        flex-wrap:nowrap;
+        font-size: 30px;
+        gap: 20px;
+        padding: 10px;
+        background-color: black;
+}
+
+.outer1 .inner1,.outer1 .inner2,.outer1 .inner3{
+    background-color: aqua;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.outer2 .inner1,.outer2 .inner2,.outer2 .inner3{
+    background-color: aqua;
+    
+    border-radius: 5px;
+}
+.outer2{
+     text-align: center;  
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+    font-size: 30px;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+.outer3 .inner1,.outer3 .inner2,.outer3 .inner3{
+    background-color: aqua;
+    
+    border-radius: 5px;
+}
+.outer3{
+     text-align: center;  
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:nowrap;
+    font-size: 30px;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+.outer4 .inner1,.outer4 .inner2,.outer4 .inner3{
+    background-color: aqua;
+    flex-grow: 0;
+    border-radius: 5px;
+}
+.outer4{
+     text-align: center;  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    font-size: 30px;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+}
+
+.outer5 .inner1,.outer5 .inner2,.outer5 .inner3{
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.outer5{
+     text-align: center;  
+    color: white;
+    display: flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    font-size: 30px;
+    gap: 20px;
+    padding: 10px;
+    background-color: black;
+}
+.outer6{
+
+       text-align: center;
+       color: white;
+       display: flex;
+       justify-content: flex-end;
+       gap: 20px;
+       flex-wrap: nowrap;
+       background-color: black;
+       font-size: 30px;
+       padding: 10px;    
+}
+.outer6 .inner1,.outer6 .inner2,.outer6 .inner3{
+    border-radius: 5px;
+    background-color: aqua;
+
+}
+.outer7{
+        
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 10px;
+        font-size: 30px;
+        background-color: black;
+        flex-wrap: nowrap;
+}
+.outer7 .inner1 , .outer7 .inner2 ,.outer7 .inner3{
+    background-color: aqua;
+    border-radius: 5px;
+} 

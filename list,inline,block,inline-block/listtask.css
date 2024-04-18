@@ -1,0 +1,88 @@
+body{
+    background-color: aqua;
+}
+
+#k1{
+   list-style-type: decimal;
+   background-color: black;
+   font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+}
+#id1:hover{
+    color: green;
+    font-size: xx-large;
+
+}
+#id2:hover{
+    color: blue;
+    font-size: xx-large;
+}
+#id3:hover{
+    color: black;
+    font-size: xx-large;
+}
+#id4:hover{
+    color: red;
+    font-size: xx-large;
+}
+#k2{
+    list-style-type:lower-roman;
+    background-color:silver;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    
+ }
+ #id5:hover{
+     color:midnightblue;
+     font-size: large;
+     display: inline;
+ 
+ }
+ #id6:hover{
+     color:pink;
+     font-size: X-large;
+     display: inline;
+ }
+ #id7:hover{
+     color: gold;
+     font-size: small;
+     display: inline;
+ }
+ #id8:hover{
+     color: green;
+     font-size: xx-small;
+     display: inline;
+ }
+#k3{
+    list-style-type:upper-alpha;
+    background-color:gold;
+    font-size: large;
+    font-weight: bold; 
+    font-family: 'Courier New', Courier, monospace;
+    height: 40%;
+    padding-left: 60px;
+    width:  50%;
+    display:inline-block;
+ }
+ #id9:hover{
+     color:yellow;
+     font-size: large;
+     font: bold;
+     display:inline-block;
+ }
+ #id10:hover{
+     color:aliceblue;
+     font-size: medium;
+     display:inline-block;
+ }
+ #id11:hover{
+     color:magenta;
+     font-size: xx-small;
+ }
+ #id12:hover{
+     color: silver;
+     font-size: medium;
+    
+ }

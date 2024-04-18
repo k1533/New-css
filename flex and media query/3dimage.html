@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D-IMAGE</title>
+    <style>
+     *{
+        margin: 0px;
+        padding: 0px;
+     }
+
+     ul{
+        
+        background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+        background-size: 1000px 100%;
+        width: 1000px;
+        height: 500px;
+        display: flex;
+        margin: 50px auto;
+     }
+     li{
+        list-style: none;
+        flex-grow: 1;
+     }
+     ul:hover{
+        background-image: none;
+     }
+     ul:hover li{
+        background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+        background-size: 1000px 100%;
+        
+     }
+     .li1,.li3{
+        transform: skewY(-20deg);
+     }
+     .li2,.li4{
+        transform: skewY(20deg);
+     }
+     ul:hover li.li1{
+        background-position: 0px 0px;
+        box-shadow: inset 1px,0px,9px black;
+     }
+     ul:hover li.li2{
+        background-position: 33.33% 0px;
+        box-shadow: inset 1px,0px,9px black;
+     }
+     ul:hover li.li3{
+        background-position: 99.99% 0px;
+        box-shadow: inset 1px,0px,9px black;
+     }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="li1"></li>
+        <li class="li2"></li>
+        <li class="li3"></li>
+        <li class="li4"></li>
+
+    </ul>
+</body>
+</html>

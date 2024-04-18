@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: limegreen;
+}
+header{
+    background-color: black;
+    display: flex;  
+    align-items: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-family:  "Inter","Open Sans",Arial,Helvetica,Verdana,sans-serif;
+}
+div.logo{
+    padding: 20px;
+    cursor: pointer;
+}
+header div.menu{
+    flex-grow: 1;
+}
+header div.menu ul{
+    display: flex;
+}
+header div.menu ul li{
+    padding: 30px 20px;
+    cursor: pointer;
+    border-bottom: 6px solid transparent;
+    position: relative;
+}
+header div.menu ul li:hover{
+    border-bottom: 6px solid #0067E6;
+}
+/* 12 Feb */
+.search a{
+    border: 1px solid white;
+    /* top  right bottom left*/
+    padding: 10px 10px 5px 10px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+/* .search a svg{
+    
+} */
+.sign-in{
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.sign-in:hover a{
+    color: gray;
+}
+
+/* --------section -product----------- */
+.product-section{
+    background-color: aqua;
+    position: absolute;
+    top: 86px;
+    left: calc(0% - 40px);
+}
+.article-p1 ul{
+    display: block !important;
+}
+
+/* ---------------------------- */
+/* article-p1  submenu-1 */
+header div.menu ul li:hover .article-p1{
+    display: block;
+}
+
+.article-p1{
+    /* display: none; */
+    background-color: white;
+    padding: 25px;
+    height: 550px;
+    border-right: 1px solid rgb(175, 174, 174);
+}
+.article-p1 ul{
+    /* background-color: green; */
+}
+.article-p1 ul li{
+    width: 250px;
+    padding: 20px !important;
+    border: none !important;
+}
+.article-p1 ul li a{
+    color: black;
+    font-size: 18px;
+}
+.article-p1 ul li:hover{
+    background-color: #0067E6;
+}
+.article-p1 ul li:hover a{
+    color: white;
+}
+.article-p1  a#link{
+    display: block;
+    color: black;
+    padding: 20px 20px 25px !important;
+    position: absolute;
+    bottom: 0px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+a#link:hover{
+    color: #0067E6;
+}
+a#link:hover svg path{
+    stroke: #0067E6;
+}
+/* ---- */
+.submenu-1 .nas{
+    background-color: white;
+    position: absolute;
+    top: calc(0% - 25px);
+    left: calc(100% + 26px);
+    display: flex;
+    width: calc(100% * 3);
+}

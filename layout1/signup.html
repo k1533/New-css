@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="signup.css" type="text/css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1503221043305-f7498f8b7888?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRyYXZlbCUyMHdvcmxkfGVufDB8fDB8fHww" type="image/x-icon">
+</head>
+<body>
+    <div class="box">
+        <span class="borderline"></span>
+      <form method="post" name="google-sheet" action="index.html">
+        <h2>Sign Up</h2>
+        
+        <div class="inputbox">
+            <input type="text" name="Full-Name" required="Required">
+            <span>Full-Name</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="email" name="Email" required="Required">
+            <span>Email</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+        <input type="text" name="Username" required="Required" minlength="5" maxlength="5" >
+        <span>Set-Username</span>
+        <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="password" name="Password" required="Required" minlength="6" maxlength="6">
+            <span>Set-Password</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="tel" name="Phone" required="Required">
+            <span>Phone-No</span>
+            <i></i>
+        </div>
+    
+          <div class="link">
+            <a href="#">Forget Password</a>
+            <a href="login.html">Login</a>
+          </div>
+          <a href="index.html"><input type="submit" value="Sign-Up"></a>
+            <input type="reset" value="Reset">
+
+      </form>
+    </div>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzk06LNjvziRK4uWob58FSfiHG0YuZF768u948ZMAcdJpYJI-7ZBVRoouZpQKVZBOk/exec'
+      const form = document.forms['google-sheet']
+       
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      }) 
+    </script>
+</body>
+</html>
+

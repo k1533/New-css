@@ -1,0 +1,477 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:white;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+header div.info{
+    background-color: #223A66;
+    padding: 15px 80px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header div.info span.address{
+    flex-grow: 1;
+}
+header div.info{
+    color: white;
+}
+header div.info a{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header div.info b{
+    font-size: 27px;
+}
+/*........................................................................*/
+header nav{
+    background-color: white;
+    display: flex;
+    padding: 30px 80px;
+    align-items:center;
+    
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+   
+}
+header div.logo{
+   flex-grow: 1; 
+}
+header nav ul li a{
+   text-decoration: none;
+   color: #222929;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*                                                                            nested  */
+header nav ul li{
+    position: relative;
+    padding: 10px 0px;
+    cursor: pointer;
+
+}
+header nav ul li:hover ul{
+    transition: all 1s;
+    transform: translateY(-5px);
+    visibility: visible !important;
+}
+header .menu ul.sub-menu{
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    background-color: white;
+    border-top: 5px solid #E12454;
+}
+header .menu ul.sub-menu li{
+    width: 200px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+header .menu ul.sub-menu li a{
+    color: #2b2e2e;
+}
+header .menu ul.sub-menu li:first-child{
+    border-bottom: 1px solid gray;
+}
+header .menu ul.sub-menu li:hover a{
+    color: #E12454;
+}
+.menu{
+    z-index: 1;
+    
+}
+/* -----------------------------------------new bg layout-------------------- */
+div.slider-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://themewagon.github.io/novena/images/bg/slider-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 0px;
+    position: relative;
+   
+}
+div.slider-home section{
+    width: 50vw;
+    position: absolute;
+    left: 6%;
+}
+div.slider-home section p{
+    color: #79ABCF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 17px 0px;
+    line-height: 33px;
+}
+div.slider-home section h1{
+    color: #223A66;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 57px;
+    line-height: 55px;
+}
+.link-btn{
+   display: block;
+   width: fit-content;
+   border-radius: 40px;
+   background-color: #E12454;
+   color:white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+   font-size: calc(16px - 2px );
+   padding: 12px 30px; 
+}
+.link-btn:hover{
+    background-color: #223A66;
+}
+ section span .linear{
+    display: block;
+    width: 39px;
+    height: 3px;
+    background-color: #E12454;
+}
+
+/* -------------------contact---------- */
+
+
+.contact{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    padding:0px 80px ;
+    position: relative;
+    top: -101px;
+ 
+}
+.contact article{
+    background-color: rgb(238, 238, 238);
+    padding: 33px;
+    border-radius: 18px;
+}
+.contact article p{
+    color: #79ABCF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+}
+.contact article h4{
+    color:#223A66;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 38px;
+}
+.contact article i{
+    font-size: 45px;
+    color: #223A66;
+    padding-bottom: 27px;
+}
+.link-btn1{
+    display: block;
+    width: fit-content;
+    border-radius: 40px;
+    background-color:#223A66;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: calc(16px - 2px );
+    padding: 12px 30px; 
+    margin-top: 40px;
+ }
+ .link-btn1:hover{
+     background-color: #E12454;
+ }
+
+
+ .contact article:nth-child(2) section{
+   display: flex;
+ }
+
+ .contact article:nth-child(2) section div{
+    flex-grow: 1;
+ }
+
+ .contact article:nth-child(2) section div:nth-child(2){
+    text-align: right;
+ }
+ .contact article:nth-child(2) section div p{
+    border-bottom: 1px solid #5c7171;
+    
+ }
+
+                             /* sevices */
+
+ .services{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 21px;
+    padding: 0px 80px;
+    grid-template-rows: repeat(2,1fr);
+ }  
+ .services div{
+    background-color: white;
+ }      
+ .services img{
+    width: 100%;  
+}     
+.services div:nth-child(2){
+    grid-row:1/3;
+    grid-column:2;
+    align-items: center;
+    align-self: center;
+}  
+.services div:nth-child(3){
+    grid-column:3;
+    grid-row:1/3;
+    align-self: center;
+}    
+
+.services div #link-btn{
+    margin-top: 31px;
+}
+.services div h2{
+    font-weight: bolder;
+    font-size: 31px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #223A66;
+    width: 33.5vh;
+    letter-spacing: 2.5px;
+    line-height: 35px;
+    text-align: center;
+    
+}
+.services div p{
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.empty{
+    width: 100%;
+    height: 347.5px;
+    background-color: white;
+    position: absolute;
+    top: calc(100vh + 159);
+    z-index: -1;
+
+}
+
+/* ---------data--------------------- */
+.data{
+    background-color: white;
+    padding: 50px 8%;
+}
+.data .data-wrap{
+    background-image:linear-gradient(#264276ba,#264276ba), url("https://themewagon.github.io/novena/images/bg/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 40px 25px;
+    display: flex;
+}
+
+.data .data-wrap section{
+    flex-grow: 1;
+    text-align: center;
+    position: relative;
+}
+.data .data-wrap section h5{
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.data .data-wrap section i.fa-solid{
+color: rgba(234, 234, 234, 0.21);
+display: block;
+font-size: 60px;
+position: absolute;
+top: 0px;
+left: 30%;
+width: 100px;
+}
+.data .data-wrap section span {
+    color: #6F96b3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data .data-wrap section p{
+    color: #bfccd6ba;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* about */
+
+div.about{
+    background-color: #f4f9fc;
+    padding: 200px 80px 80px;
+}
+div.about section{
+    text-align: center;
+}
+div.about section:first-child{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+div.about section:first-child h3{
+    color: #223A66;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+}
+div.about section span.liner{
+    margin: 20px auto;
+}
+div.about section p{
+    color: #79ABCF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+}
+div.about section:last-child{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+
+div.about section:last-child article{
+    background-color: white;
+    padding: 25px;
+    /* width: 23vw; */
+    position: relative;
+}
+
+div.about section:last-child article h5{
+    display:inline-block;
+    position: absolute;
+
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+}
+div.about section:last-child article i.fa-solid{
+    font-size: 61px;
+    padding: 0px 20px 20px 0px;
+}
+
+/* form  */
+.form{
+    background-color: white;
+    padding: 80px 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.form section:first-child{
+    position: relative;
+}
+
+.form section:first-child img{
+    height: 670px;
+}
+
+.form section:first-child div{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-color: #223A66;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.form section:first-child div h3{
+    position: relative;
+    font-size: 56px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form section:first-child div i.fa-solid{
+    font-size: 40px;
+    border: 4px solid #6f96b3;
+    text-align: center;
+    margin-top: 9px;
+    margin-right:21px;
+    border-radius: 50%;
+    padding: 11px;
+    color: #6f96b3;
+
+}
+.form section:last-child{
+   background-color: white; 
+}
+.form section:last-child h3{
+    color:#222929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:37px;
+    margin-top: 21px;
+}
+.form section:last-child p{
+    color:#222929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 19px;
+    line-height: 37px;
+    color:#6f96b3;
+    margin-bottom: 21px; 
+}
+form{
+    display: grid;
+    margin-top: 30px;
+    height: calc(100% - 251px);
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap: 17px 23px;
+}
+form textarea{
+    grid-column: 1/3;
+    grid-row: 4/7;
+    background-color: #F9F9F9;
+    border: 2px solid #e6eaec;
+    border-radius: 8px;
+    padding: 15px 0px 0px 15px;
+    font-size: 18px;
+    color: #87abc5;
+}
+form input{
+    padding-left: 19px;
+    background-color: #F9F9F9;
+    border: 2px solid #e6eaec;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #87abc5;
+}
+form textarea:focus{
+    outline: none;
+}
+form select{
+         padding-left: 19px;  
+         background-color: #F9F9F9;
+         border: 2px solid #e6eaec;
+         border-radius: 8px;
+         font-size: 18px;
+         color: #87abc5;
+}
+
+::placeholder{
+    color: #87abc5;
+}
+
+form input[type="text"]:focus{
+    outline: 1px solid black;
+}
+form input[type="number"]:focus{
+    outline: none;
+}

@@ -1,0 +1,273 @@
+
+    main{
+        height: 600px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        gap: 10px;    
+    }
+    .BOX1{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        background-color: aqua; 
+    }
+    .BOX2{
+        border-radius: 3px;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        background-color: aqua; 
+    }
+    .BOX3{
+        border-radius: 3px;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        background-color: aqua; 
+    }
+
+    .BOX4{
+        border-radius: 3px;
+        grid-column-start: 4;
+        grid-column-end: 4;
+        background-color: aqua; 
+    }
+    .BOX5{
+        border-radius: 3px;
+        grid-column-start:5;
+        grid-column-end: 5;
+        background-color: aqua; 
+    }
+    .BOX6{
+        border-radius: 3px;
+        grid-column-start: 6;
+        grid-column-end: 6;
+        background-color: aqua; 
+    }
+    .BOX7{
+        border-radius: 3px;
+        grid-column-start: 7;
+        grid-column-end: 7;
+        background-color: aqua; 
+    }
+    .BOX8{
+        border-radius: 3px;
+        grid-column-start: 8;
+        grid-column-end: 8;
+        background-color: aqua; 
+    }
+    .BOX9{
+        border-radius: 3px;
+        grid-column-start: 9;
+        grid-column-end: 9;
+        background-color: aqua; 
+    }
+    .BOX10{
+        border-radius: 3px;
+        grid-column-start: 10;
+        grid-column-end: 10;
+        background-color: aqua; 
+    }
+    .BOX11{
+        border-radius: 3px;
+        grid-column-start: 11;
+        grid-column-end: 11;
+        background-color: aqua; 
+    }
+    .BOX12{
+        border-radius: 3px;
+        grid-column-start: 12;
+        grid-column-end: 12;
+        background-color: aqua; 
+    }
+    .BOX13{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: aqua; 
+    }
+    .BOX14{
+        border-radius: 3px;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        background-color: aqua; 
+    }
+
+    .BOX15{
+        border-radius: 3px;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        background-color: aqua; 
+    }
+
+    .BOX16{
+        border-radius: 3px;
+        grid-column-start: 7;
+        grid-column-end: 9;
+        background-color: aqua; 
+    }
+    .BOX17{
+        border-radius: 3px;
+        grid-column-start: 9;
+        grid-column-end: 11;
+        background-color: aqua; 
+    }
+    .BOX18{
+        border-radius: 3px;
+        grid-column-start: 11;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+
+    .BOX19{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: aqua; 
+    }
+
+    .BOX20{
+        border-radius: 3px;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        background-color: aqua; 
+    }
+
+    .BOX21{
+        border-radius: 3px;
+        grid-column-start: 7;
+        grid-column-end: 10;
+        background-color: aqua; 
+    }
+
+    .BOX22{
+        border-radius: 3px;
+        grid-column-start: 10;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+
+    .BOX23{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        background-color: aqua; 
+    }
+    .BOX24{
+        border-radius: 3px;
+        grid-column-start: 5;
+        grid-column-end: 9;
+        background-color: aqua; 
+    }
+
+    .BOX25{
+        border-radius: 3px;
+        grid-column-start: 9;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+
+    .BOX26{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        background-color: aqua; 
+    }
+
+    .BOX27{
+        border-radius: 3px;
+        grid-column-start: 6;
+        grid-column-end: 11;
+        background-color: aqua; 
+    }
+
+    .BOX28{
+        border-radius: 3px;
+        grid-column-start: 11;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+
+    .BOX29{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 7;
+        background-color: aqua; 
+    }
+
+    .BOX30{
+        border-radius: 3px;
+        grid-column-start: 7;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+    
+    .BOX31{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        background-color: aqua; 
+    }
+    .BOX32{
+        border-radius: 3px;
+        grid-column-start: 8;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+    .BOX33{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 9;
+        background-color: aqua; 
+    }
+    .BOX34{
+        border-radius: 3px;
+        grid-column-start: 9;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+    .BOX35{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 10;
+        background-color: aqua; 
+    }
+    .BOX36{
+        border-radius: 3px;
+        grid-column-start: 10;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+    .BOX37{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 11;
+        background-color: aqua; 
+    }
+    .BOX38{
+        border-radius: 3px;
+        grid-column-start: 11;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+    .BOX39{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 12;
+        background-color: aqua; 
+    }
+
+    .BOX40{
+        border-radius: 3px;
+        grid-column-start: 12;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }
+
+    .BOX41{
+        border-radius: 3px;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        background-color: aqua; 
+    }

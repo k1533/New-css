@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="signup.css" type="text/css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <div class="box">
+        <span class="borderline"></span>
+      <form method="post" name="google-sheet" >
+        <h2>Sign In</h2>
+        
+        <div class="inputbox">
+            <input type="text" name="Full-Name" required="Required">
+            <span>Full-Name</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="email" name="Email" required="Required">
+            <span>Email</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+        <input type="text" name="Username" required="Required">
+        <span>Set-Username</span>
+        <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="password" name="Password" required="Required">
+            <span>Set-Password</span>
+            <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="tel" name="Phone" required="Required">
+            <span>Phone-No</span>
+            <i></i>
+        </div>
+    
+          <div class="link">
+            <a href="#">Forget Password</a>
+            <a href="signup.html">SignUp</a>
+          </div>
+            <input type="submit" value="Login">
+            <input type="reset" value="Reset">
+
+      </form>
+    </div>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzk06LNjvziRK4uWob58FSfiHG0YuZF768u948ZMAcdJpYJI-7ZBVRoouZpQKVZBOk/exec'
+      const form = document.forms['google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("THANKS FOR SIGN-UP!!"))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>

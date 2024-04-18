@@ -1,0 +1,233 @@
+
+/* HEADER START*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: #444445;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+ padding: 0px 17.5px;
+}
+
+header ul li:hover a{
+    color: #fff;
+}
+
+header ul li:hover a svg{
+    fill: #fff;
+}
+header a{
+    color: #b5b5b5;
+    text-decoration: none;
+    font-size:large;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+
+}
+
+svg{
+    fill:#b5b5b5 ;
+    height:54.5px;
+    width:52.9px;
+    font-size:larger;
+}
+
+li.changer svg{
+    fill: #b5b5b5;
+    width: 35.9px;
+    height: 33.9px;
+    font-size:larger;
+}
+
+li.changer svg:hover{
+    fill:#fff;
+}
+
+
+.bag{
+position: relative;
+left: -20px;
+}
+
+                                    /* HEADER END*/
+                                    /* home 1 start*/ 
+div.home1{
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 82.9px 0px;
+} 
+
+div.home1 a{
+    text-decoration: none;
+    color: black;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;   
+}
+div.home1 a h2{
+    font-size: 61.5px;
+}
+
+div.home1 a h3{
+    font-size: 33.5px;
+    font-weight: lighter;
+    line-height: 51.5px;
+}
+div.home1-link{
+        display: flex;
+        justify-content: center;
+}
+div.home1-link a{
+        color:#2997ff;
+        font-size: 27.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+div.home1-link a:hover span{
+    text-decoration: underline;
+}
+div.home1-link a svg{
+    position: relative;
+    transform: rotate(180deg);
+    fill: #2997ff;
+    left: -8px;
+}
+
+               /* home 1 end*/
+/*home add 1 start*/
+div.add-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.apple.com/v/home/bi/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+div.add-1 a{
+    text-decoration: none;
+    display: block;
+    height: inherit;
+}
+div.heading-text{
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.add-1 div.heading-text h2{
+    font-size: 61.5;
+    color: white;
+    padding-top: 31.5px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+div.add-1 div.heading-text h3{
+    font-size: 33.5;
+    line-height: 43.5px;
+    color: white;
+    font-weight: lighter;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+div.link-add1{
+    display: flex;
+    justify-content: center;
+    
+}
+div.link-add1 .home1-link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2997ff;
+    
+}
+div.link-add1 .home1-link a svg{
+    fill: #2997ff;
+       
+}
+/*home add 1 end*/
+
+/*watch add 1 start*/
+div.watch{
+    margin-top: 10px;
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://www.apple.com/v/home/bi/images/heroes/apple-watch-series-9-anim/hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+div.watch a{
+    text-decoration: none;
+    display: block;
+    height: inherit;
+}
+
+div.content1{
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    display: flex;
+    top:72%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.content1 h2{
+    font-size: 41.5;
+    color: white;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.content1 h2 span{
+    margin-left: -15px;
+}
+
+div.content1 h2 svg{
+  width: 100px;
+  height: 100px;
+  fill: white;
+  margin-right: -15px;
+}
+
+div.content1 span.sp1{
+     margin-top: -23px;
+     display: block;
+     padding-left:1.5em;
+     color: #fff;
+     font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-size: 18px;
+     font-weight: bolder; 
+}     
+
+div.content1 p{
+    font-size: 24px;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300px;
+    color: #fff;
+    margin: 15px 0px;
+}
+div.content1 .link-watch{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 43.5px;
+}
+
+div.content1 .link-watch a.class1{
+    background-color:white;
+    color: black;
+    font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+/*watch add 1 end*/

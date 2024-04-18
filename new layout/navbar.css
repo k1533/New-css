@@ -1,0 +1,321 @@
+*{
+    margin: 0px;  
+    padding: 0px;
+  }
+  body{
+      overflow: hidden;
+  }
+  header{
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+      padding: 0px 100px;
+      align-items: center;
+      border-top: 1px solid #d8dde2;
+      border-bottom: 1px solid #d8dde2;
+  }
+  div{
+      flex-grow: 1;
+  }
+  ul{
+      list-style-type: none;
+  }
+  .menu{
+      box-sizing: border-box;
+      flex-grow: 0;
+  }
+  .menu ul{
+      display: flex;
+  }
+  .menu ul li a{
+      text-decoration: none;
+      color: #2E475D;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu ul li{
+      padding: 20px 25px;
+      border-bottom: 2px solid transparent;
+      position: relative;
+  }
+  .menu ul li:hover a{
+      color: blue;
+      text-decoration: underline;
+  }
+  .menu ul li:hover{
+      border-bottom: 2px solid #2E475D;
+  }
+  .search{
+      padding: 16px 25px;
+      text-align: right;
+      flex-grow: .2;
+      border-right: 1px solid #d8dde2;
+      color: #5E7A98;
+  }
+  i.down{
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+      left: 5px;
+      color: #5E7A98;
+  }
+  li:hover i.down{
+      transition: all .3s;
+      transform: rotate(180deg);
+  }
+  .logo{
+      text-align: right;
+  }
+  .second-menu{
+      flex-grow: 1;
+  }
+/*--------------------------------------------N - 1 (Blog)-------------------------------------------------*/
+  .menu ul li:hover div.nested-1{
+      display: block;
+  }
+  div.nested-1{
+      display: none;
+      position: absolute;
+      top: 62px;
+      left: -290%;
+      background-color: rgb(236, 230, 231);
+      width: 100vw;
+      box-sizing: border-box;
+      padding: 50px 180px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #2E475D;
+    }
+    div.nested-1 h2 {
+        color: #21313f;
+    }
+    div.nested-1 p{  
+        padding: 10px 0px 30px;
+    }
+    div.nested-1 section{
+        display: flex;
+        gap: 15px;
+        padding-bottom: 0px;
+    }
+    
+div.nested-1 article{
+    display: flex;
+    padding: 15px;
+    height: 80px;
+    padding-bottom:10px;
+    grid-column: 10px;   
+    gap: 10px;
+    background-color: rgb(101, 76, 76);
+    width: fit-content;
+    opacity: 0.9;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+div .nested-1 article:hover{
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+article div img{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+}
+article h3{
+    color: #21313f;
+    font-size: 20px;   
+}
+article div:first-child{
+    padding-top: 10px;
+}
+article div:last-child{
+    padding: 10px;
+}
+article p{
+    font-size: 14px;
+}
+aside{
+    width: 170px;
+    padding: 15px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.menu ul li section aside ul{
+    display: block;
+}
+aside h3{
+    font-size: 14px;
+}
+.menu ul li section aside ul li{
+    padding: 0px;
+    border-bottom: none;
+    position: relative;
+}
+.menu ul li section aside ul li:hover{
+    border-bottom: none;   
+}
+.menu ul li section aside ul li a{
+    text-decoration: none !important;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.menu ul li section aside ul li a:hover{
+    text-decoration: underline !important;
+}
+button{
+    background-color: #FF5C35;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    display: block;
+    margin-top: 10px;
+}
+/*--------------------------------------------N - 2 (Newletter)-------------------------------------------------*/
+.menu ul li:hover div.nested-2{
+    display:block;
+}
+div.nested-2{
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: -244.5%;
+    background-color: rgb(230, 236, 236);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 50px 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E475D;
+}
+
+div.nested-2 h2 {
+    color: #21313f;
+}
+
+div.nested-2 p{
+    padding: 10px 0px 30px;
+}
+
+div.nested-2 section{
+    display: inline-block;
+    gap:0px;
+}
+div.nested-2 article{
+    display: flex;
+    padding: 15px;
+    height: 80px;
+    gap: 10px;
+    background-color: brown;
+    opacity: 0.4;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+div .nested-2 article:hover{
+    background-color: aliceblue;
+    opacity: 1;
+}
+
+
+/*--------------------------------------------N - 3 (video)-------------------------------------------------*/
+
+.menu ul li:hover div.nested-3{
+    display:block;
+}
+div.nested-3{
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: -455.5%;
+    background-color: rgb(230, 236, 236);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 50px 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E475D;
+}
+div.nested-3 h2 {
+    color: #21313f;
+}
+
+div.nested-3 p{
+    padding: 10px 0px 30px;
+}
+
+div.nested-3 section{
+    display: flex;
+    gap:70px;
+}
+div.nested-3 article{
+    display: flex;
+    padding: 15px;
+    height: 80px;
+    gap:10px;
+    margin-bottom: 5px;
+    background-color: brown;
+    opacity: 0.4;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+div.nested-3 article:hover{
+    background-color: aliceblue;
+    opacity: 1;
+}
+
+/*--------------------------------------------N - 4 (product)-------------------------------------------------*/
+.menu ul li:hover div.nested-4{
+    display:block;
+}
+div.nested-4{
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: -521.5%;
+    background-color: rgb(230, 236, 236);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 50px 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E475D;
+}
+div.nested-4 h4{
+    color: #21313f;
+}
+
+div.nested-4 p{
+    padding: 10px 0px 30px;
+}
+
+div.nested-4 section{
+    display: flex;
+    gap:70px;
+}
+div.nested-4 article{
+    display: flex;
+    padding: 15px;
+    height: 80px;
+    gap:10px;
+    background-color: brown;
+    opacity: 0.4;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+div.nested-4 article:hover{
+    background-color: aliceblue;
+    opacity: 4;
+}
+div.nested-4  aside{
+    width: 170px;
+    padding: 15px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -17px;
+    margin-left:-45px;
+}
+.menu ul li div.nested-4 section aside ul{
+    display:block;
+}
+

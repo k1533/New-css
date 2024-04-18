@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(40,41,52);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+table,td,th{
+    border: 1px solid white ;
+    border-collapse:collapse ;
+    font-size: 11px;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+th{
+    padding: 10px 50px;
+}
+.row-1 th:first-child{
+    padding-left: 0px;
+    color: black;
+    background-color: white;
+}
+.row-1 th:nth-child(2){
+    background-color:orange;
+}
+.row-1 th:nth-child(3){
+    background-color:crimson;
+}
+.row-1 th:nth-child(4){
+    background-color:skyblue;
+}
+td{
+    padding: 10px 5px;
+}
+tr td:first-child{
+    text-align: left;
+}
+.row-3 td:nth-child(2){
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row-3 td:nth-child(3){
+    color:crimson;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.row-3 td:nth-child(4){
+    color:skyblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+button{
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 7px 15px;
+    border: none;
+    font-size: 10px;
+}

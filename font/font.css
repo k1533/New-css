@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Nabla';
+}
+h2{
+    font-family: 'Bungee Spice', cursive;
+}
+h3{
+    font-family: 'Faster One', cursive;
+}
+h4{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    }
+.para1{
+    font-family: 'Charmonman', cursive;
+}
+.para2{
+    font-family: 'Dr Sugiyama', cursive;
+} 
+
+#span1{
+    font-family: 'Major Mono Display', monospace;
+}
+#span2{
+    font-family: 'M PLUS 1 Code', monospace;
+}

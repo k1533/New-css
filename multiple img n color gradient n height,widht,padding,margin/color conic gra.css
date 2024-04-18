@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+
+.box{
+
+    height: 300px;
+    width: 300px;
+    border: 5px solid wheat;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box1{
+
+    background-image: conic-gradient(red,yellow);
+}
+
+.box2{
+
+    background-image: conic-gradient(from 45deg, red 0deg, red 120deg,yellow 120deg,yellow);
+}
+
+
+
+.box3{
+
+    background-image: conic-gradient( red 0deg, red 120deg,yellow 120deg,yellow);
+}
+
+
+.box4{
+
+    background-image: conic-gradient(from 45deg, red ,yellow);
+
+}
+
+
+.box5{
+
+    background-image: repeating-conic-gradient(from 45deg, red,yellow);
+}
+
+.box6{
+
+    background-image: repeating-conic-gradient(from 45deg, red 0deg,red 90deg,yellow 90deg,yellow 120deg);
+}
+
+
+.box7{
+
+    background-image: repeating-conic-gradient( red,yellow);
+    background-size: 50px 50px;
+    background-position: 50% 50% ;
+}
+
+.box7{
+
+    background-image: repeating-conic-gradient( red,yellow);
+    background-size: 50px 50px;
+    background-position: 50% 50% ;
+    
+}

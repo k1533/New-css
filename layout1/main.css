@@ -1,0 +1,326 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar start */
+header{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+}
+header h1{
+    padding: 51px 10px;
+    flex-grow: 1;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 35px;
+    
+     
+}
+header ul{
+   
+    flex-grow: 1;
+    list-style-type: none;
+    display: flex;
+    column-gap: 33px;
+    justify-content: flex-end;
+}
+header a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+div.explore{
+    flex-grow: 1;
+    display: flex;
+    padding-left: 25px;
+}
+div.explore a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: brown;
+    padding: 9px 21px;
+}
+
+                               /*NAVBAR END*/
+                           
+                                
+                              /*SLIDER START*/ 
+ div.bg{
+      width: 100%; 
+      height: 700px;
+      background-image:url('https://images.unsplash.com/photo-1484627147104-f5197bcd6651?ixlib=rb-1.2.1&q=85&fm=jpg&crop=en');
+      background-repeat:no-repeat;
+      background-size:cover;
+      position: absolute;
+      z-index: -100;
+      
+    }
+
+    div.slider-text{
+
+        display: flex;
+        justify-content: center;
+        width: 55%;
+        margin-bottom: 121px;
+    }
+
+    div.slider-text h1{
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 151px;
+        line-height: 111px;
+    }
+
+    .para1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 31px;
+        margin-bottom: 25px;
+    }
+
+    .para2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 21px;
+        margin-bottom: 43px;
+    }
+    
+    div.slider-text div.explore{
+        padding-bottom: 0px;
+    }
+                          /*SLIDER END*/ 
+                         
+                          /* PLACES start */
+
+div.places{
+    padding-bottom: 151px;
+}
+
+div.places h2{
+
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 65px;
+}
+
+div.places h2+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+    position:relative;
+    font-size: 28px;
+    top:51px;
+}
+
+div.places div.places-more{
+    position:relative;
+    top: 69px;
+}
+
+div.places div.places-more{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding-top:35px;
+}
+
+div.places div.places-more>div{
+    width: 100%;
+    flex-basis: 587px;
+    text-align: center;
+}
+
+div.places div.places-more div img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+div.places div.places-more>div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 21px 21px;
+}
+
+div.places div.places-more>div p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+div.places div.places-more>div div.explore {
+     justify-content: center;
+}
+
+div.places div.places-more>div div.explore a{
+    border: 3px solid black;
+    background-color: orange;
+    color: black;
+    font-weight: 120;
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 200;
+}
+/* PLACES END */
+
+/*--footer start--*/
+
+footer{
+    background-color: black;
+    display: flex;
+}
+
+footer div.heading{
+    text-align: center;
+    align-self: center;
+    
+}
+
+footer div.menu1{
+
+}
+
+footer div.menu2{
+    padding-left:100px;
+}
+
+footer div.social{
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 80px 0px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h4{
+    font-size: 36px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.padding{
+    margin: auto;
+    width: fit-content;
+}
+.padding ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    padding: 13px;
+}
+
+div.heading,div.social{
+    flex-grow: 1;
+}
+
+div.social{
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+div.social span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    margin-left: 11px;
+    line-height:55px;
+    color: white;
+}
+
+div.social a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 29px;
+    display: inline-block;
+    margin-left: 21px;
+    color: white;
+}
+div.social a,div.padding a:hover{
+    color: orange;
+}
+
+div.social a:hover{
+  color: white;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family:'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    color:black;
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: black;
+    border: 2px solid black;
+    margin-top:13px;
+    color:#fff;
+    margin-right: 25px;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+/* div.contact{
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+div.contact span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    margin-left: 11px;
+    line-height:55px;
+    color: white;
+}
+
+div.contact a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 29px;
+    display: inline-block;
+    margin-left: 21px;
+    color: white;
+}
+div.contact a,div.padding a:hover{
+    color: orange;
+}
+
+div.contact a:hover{
+  color: white;
+} */

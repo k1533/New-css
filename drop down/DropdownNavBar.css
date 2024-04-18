@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+}
+header{
+    background-color: white;
+}
+.menu-1{
+    list-style-type: none;
+    display: flex;
+}
+.menu-1 li{
+    padding: 10px;
+    width: 120px;
+    margin-left: 1px;
+    text-align: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.menu-1 li:hover a{ 
+    color: #308D46;
+}
+.menu-1 li:hover .sub-menu{
+    display: block;
+}
+.sub-menu{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    left: 30px;
+    border-top: 3px solid #308D46;
+}
+.sub-menu li{
+    width: 250px;
+    text-align: left;
+
+}
+.menu-1 li:hover .sub-menu li a{
+    color: black;
+}
+.sub-menu li a{
+    font-size: 14px;
+}
+.sub-menu li:hover{
+    background-color: lightgrey;
+}
+.sub-menu li:hover .sub-menu-2{
+    display: block;
+}
+.sub-menu-2{
+    display: none;
+    position: absolute;
+    top: -42px;
+    left: 100%;
+    list-style-type: none;
+    background-color: white;
+    border-top: 3px solid #308D46;
+}
+.sub-menu-2 li a{
+    font-size: 12px;
+}
+
+span.down{
+    position: absolute;
+}
+li:hover span.down{
+    color: #308D46;
+    transform: rotate(-180deg);
+    transition: all .2s;
+    transform-origin:  49% 49%;
+}
+span.right{
+    position: absolute;
+    left: 85%;
+}
+.sub-menu li:hover span.right{
+    transform: rotate(-180deg);
+    transition: all .2s;
+}
+.ani-p{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.386);
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    animation-name: ani-p;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+.ani{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: orange;
+    animation-name: ani;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+@keyframes ani-p{
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(2,2);
+    }
+}
+@keyframes ani{
+    from{
+        transform: scale(1,1);
+    }
+    to{
+        transform: scale(.5,.5);
+    }
+}
+div.inner-p{
+    top: 5px;
+    left: 5px;
+}
+span.all-courses{
+    display: block;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 35%;
+    background-image: url("https://media.geeksforgeeks.org/auth-dashboard-uploads/three90daylogocompressed.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 70px;
+    background-position: 0% 105%;
+}
+.js-1{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    list-style-type: none;
+    background-color: white;
+    border-top: 3px solid #308D46;
+}

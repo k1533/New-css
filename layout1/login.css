@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23242a;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    width: 389px;
+    height: 441px;
+    background: #1c1c1c;
+    border-radius:11.7px;
+    overflow: hidden;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 389px;
+    height: 441px;
+    background:linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index:1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 389px;
+    height: 441px;
+    background:linear-gradient(0deg,transparent,transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index:1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay:-3s;
+}
+.borderline{
+    position: absolute;
+    top: 0;
+    inset: 0;
+
+}
+.borderline::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 389px;
+    height: 441px;
+    background:linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index:1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay:-1.5s;
+}
+.borderline::after{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 389px;
+    height: 441px;
+    background:linear-gradient(0deg,transparent,transparent,#ff2770,#ff2770,#ff2770);
+    z-index:4.9;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay:-4.5s;
+}
+@keyframes animate{
+    0%
+    {
+        transform:rotate(0deg);
+    }
+    100%
+    {
+        transform:rotate(350deg);
+    }
+}
+.box form{
+    position: absolute;
+    inset: 5.5px;
+    background: #222;
+    padding: 51px 50px;
+    border-radius: 9.5px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+.box form h2{
+  color: #fff;
+  font-weight:700;
+  text-align: center;
+  letter-spacing:0.5em;
+}
+.box form .inputbox{
+      position: relative;
+      width: 300px;
+      margin-top: 35px;
+}
+.box form .inputbox input
+{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    outline: none;
+    box-shadow: 1px;
+    border: none;
+    color:#23242a;
+    font-size: 1.5em;
+    letter-spacing: 0.09em;
+    transition: 0.5s;
+    z-index: 11;
+}
+.box form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 15px 0px 9px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size:1.3em;
+    letter-spacing: 0.01em;
+    transition: 0.7s;
+}
+.box form .inputbox input:valid ~ span,
+.box form .inputbox input:focus ~ span{
+color: #fff;
+font-size: 1em;
+transform: translateY(-34px);
+}
+.box form .inputbox i{
+   position: absolute; 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 1px;
+   background-color: #fff;
+   border-radius: 5px;
+   overflow: hidden;
+   transition: 0.5s;
+   pointer-events: none;
+}
+
+.box form .inputbox input:valid ~ i,
+.box form .inputbox input:focus ~ i
+{
+    height: 45px;
+}
+
+.box form .link {
+display: flex;
+justify-content: space-between;
+font-weight: medium;
+font-size: 15px;
+}
+
+.box form .link a{
+    margin: 15px 0px;
+    font-size: 1em;
+    color:#8f8f8f;
+    text-decoration: none; 
+}
+
+.box form .link a:hover,
+.box form .link a:nth-child(2)
+{
+    color: #fff;
+}
+.box form  input[type="submit"]{
+border: 5.9px inset lightcoral;
+outline: none;
+padding: 15px 27px;
+background-color: #fff;
+cursor: pointer;
+font-size: 0.9em;
+border-radius: 7px;
+font-weight: 600;
+width: 100px;
+margin-top: 10px;
+}
+
+
+.box form  input[type="submit"]:active{
+    opacity: 0.8;
+} 
+
+.box form  input[type="reset"]{
+    border: 5.9px inset lightcoral;
+    outline:none;
+    padding: 11px 27px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: -41.9px;
+    margin-left: 209px;
+    }
+    
+    .box form  input[type="reset"]:active{
+        opacity: 0.8;
+    }

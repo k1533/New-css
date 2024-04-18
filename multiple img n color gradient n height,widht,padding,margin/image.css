@@ -1,0 +1,11 @@
+div{
+
+    width: 100%;
+    height: 700px;
+    border: 4px solid black;
+    
+    background-image: url(tiger.png),url(rabbit.png),url(im1.jpg);
+    background-repeat: no-repeat;
+    background-size: 10% 15%,10% 10%,100% 100%;
+    background-position: 50% 90%,90% 100%;
+}

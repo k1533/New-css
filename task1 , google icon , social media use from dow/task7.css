@@ -1,0 +1,33 @@
+
+ div{
+    color:red;
+ }
+
+ h1{
+    color:#0000ff;
+ }
+
+ .myChoice{
+
+       color:rgb(250,200,0);
+ }
+
+ .text1{
+
+        color:rgba(0,250,0,0.2);
+ }
+
+ #myText{
+
+        color:hsl(360,100%,50%);
+ }
+
+ #myContent{
+
+        color:hsla(218,100%,50%,0.5);
+ }
+
+ #extra{
+
+       color:#5F9EA0;
+ }

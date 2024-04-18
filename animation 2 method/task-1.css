@@ -1,0 +1,164 @@
+body {
+    background: #000;
+    margin:250px auto 0px;
+}
+
+.main {
+    position: relative;
+    width: 300px;
+    margin:250px auto 0px;
+    height: 300px;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.main .circle1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:skyblue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-delay: 4s;
+}
+.main .circle2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:skyblue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-delay: 4s;
+}
+
+.main .circle3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:skyblue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-delay: 4s;
+}
+
+.main .circle4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:skyblue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-delay: 4s;
+}
+.main .circle1{
+    top: 0;
+    animation-name: rotate1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.main .circle2{
+    left: 0;
+    animation-name: rotate2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.main .circle3{
+    left: 100%;
+    animation-name: rotate3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.main .circle3{
+    top: 100%;
+    animation-name: rotate3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes rotate1 {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 100%;
+    }
+
+    100% {
+        top: 100%;
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes rotate3 {
+    0% {
+        left: 100%;
+    }
+
+    50% {
+        left: 0;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes rotate4 {
+    0% {
+        top: 100%;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    100% {
+        top: 0;
+    }
+}

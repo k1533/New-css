@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+body{
+    background-color:rgb(161, 154, 154);
+}
+header{
+    display: flex;
+    background-color:rgb(60, 179, 226);
+    row-gap: 1px;
+    color: #fff;
+    height:80px;
+    width: 100%;
+    border-radius: 4px;
+     border: 1px solid rgb(60, 179, 226);
+}
+.logo{
+    flex-grow:1;
+    font-size: 28px;
+    align-self: center;
+    padding: 15px 18px 21px 15px;
+}
+
+div .navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 15px 100px 21px 15px;
+    
+}
+div .navbar {   
+    align-self: center;
+}
+
+div.navbar ul li a{
+    color: white;
+    font-size: 21px;
+    text-decoration: none;
+}
+.background{
+    height: 771px;
+    width: 100%;
+    background-color:rgb(25, 157, 209);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+div .background div.image1{
+ padding-top:50px;
+ line-height: 41px;
+ font-size: 31px;
+}
+div .background div.image2{
+    line-height:41px;
+    font-size: 31px;
+}
+div .background div.image3 p{
+    line-height:81px;
+    font-size: 31px;
+}
+div .background div.image3 span{
+    line-height:80px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.image4{
+    font-size: 80px;
+    padding-top: 240px;
+    color: white;
+    letter-spacing: 80px;
+}
+div.courses{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.courses h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+article{
+    display: flex;
+    gap: 20px;
+}
+div.courses h3{
+    margin-bottom: 21px;
+    font-size: 25px;
+}
+i{
+    font-size: 51px;
+    padding: 15px;
+}
+.Web-border{
+   border-left: 1.4px solid black;
+   border-right: 1.4px solid black;
+}
+div.courses div a{
+    background-color: #4BA3EE;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+div.courses div p{
+  margin-bottom: 31px;
+}
+
+.part3{
+    background-color: #4BA3EE;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 51px;
+}
+.part3 img{
+     border-radius: 100px;
+     border: 1.5px solid white;
+}
+.part3 h2{
+    margin-bottom: 20px;
+}
+.part3 p{
+    width: 50%;
+    margin: auto;
+    line-height: 27px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.part3 button{
+    padding: 11px 22px;
+    border-radius: 3px;
+    border: 1.5px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.part3 button:hover{
+    background-color: black;
+}
+div .fill-up{
+    margin-top: 20px;
+    padding: 0px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .fill-up section{
+display: flex;
+margin-top:80px;
+
+}
+
+div.fill-up h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+ div.form1{
+    text-align: center;
+    flex-grow: 0.5;
+    line-height: 30px;
+}
+div.form2 p{
+    margin-bottom: 25px;
+    text-align: center;
+}
+div.form2{
+    text-align: center;
+    flex-grow: 0.3;
+    line-height: 28px;
+}
+div.form1 input{
+    height: 11%;
+    width: 51%;
+    padding: 5px 0px 5px 5px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+}
+textarea{
+    width: 51%;
+    height: 200px;
+    background-color: black;
+    padding: 5px 0px 5px 5px;
+    color: white;
+    border-radius: 5px;
+    text-emphasis-style: initial;
+    text-align: center;
+}
+div.form1 input:focus{
+    background-color: #4BA3EE;
+    border: 3px solid white;
+    color: white;
+}
+
+div.form1 textarea:focus{
+    background-color: #4BA3EE;
+    border: 3px solid white;
+    color: white;
+}
+::placeholder{
+    color: #fff;
+    text-align: center;
+}
+div.form1 button{
+    width: 51%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+div span.ico{
+    display: inline-block;
+    font-size: 20px;
+    height: auto;
+    /* color: white; */
+
+} 
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://image.shutterstock.com/image-vector/sky-bluecloud-backgroundhorizon-spring-clear-260nw-2307762947.jpg');
+    background-size: cover;    
+}
+.ball{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    animation-name: hot1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.ball2{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    animation-name: hot2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.ball3{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    animation-name: hot3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+@keyframes hot1{
+    0%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:-9px;
+        left:30%;
+        transition: all 2s ease;
+    }
+    25%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:100px;
+        left:30%;
+        transition: all 2s ease;
+    }
+    50%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:250px;
+        left:30%;
+        transition: all 0.8 ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:450px;
+        left:30%;
+        transition: all 0.8s ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:550px;
+        left:30%;
+        transition: all 2s ease;
+    }
+    100%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:621px;
+        left:30%;
+        transition: all 0.8s ease;
+    }
+}
+
+@keyframes hot2{
+    0%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:-190px;
+        left:59%;
+        transition: all 0.1s ease;
+    }
+    25%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:10px;
+        left:59%;
+        transition: all 2s ease;
+    }
+    50%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:330px;
+        left:59%;
+        transition: all 0.8 ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:475px;
+        left:59%;
+        transition: all 0.8s ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:595px;
+        left:59%;
+        transition: all 2s ease;
+    }
+    100%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:679px;
+        left:59%;
+        transition: all 0.8s ease;
+    }
+}
+
+
+@keyframes hot3{
+    0%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:-350px;
+        left:79%;
+        transition: all 0.1s ease;
+    }
+    25%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:-100px;
+        left:79%;
+        transition: all 2s ease;
+    }
+    50%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:45px;
+        left:79%;
+        transition: all 0.8 ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:250px;
+        left:79%;
+        transition: all 0.8s ease;
+    }
+    75%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:450px;
+        left:79%;
+        transition: all 2s ease;
+    }
+    100%{
+        background-image:url("https://www.pngall.com/wp-content/uploads/3/Hot-Air-Balloon-PNG-High-Quality-Image-300x225.png");
+        bottom:579px;
+        left:79%;
+        transition: all 0.8s ease;
+    }
+}

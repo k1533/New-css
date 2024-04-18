@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+div{
+    width: 400px;
+    height: 590px;
+    border: 20px solid blue;
+    margin: 100px auto; 
+    padding: 20px;
+    margin-top: 90px;
+    background-color: aquamarine; 
+    /* border Image */
+
+     border-image-source: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvIWPLF5WTRNIIiMHkihBBNr2ESt1rS8BuA&usqp=CAU); 
+    border-image-slice: 55; 
+    /* default */
+    /* border-image-repeat: stretch; */
+     border-image-repeat: round; 
+    /* border-image-repeat: space; */
+
+     border-image-width: 30px; 
+     border-image-outset: 30px; 
+}
+p{
+    background-color: black;
+}
+#id1{
+      
+     background-color: black;
+     color: blue;
+}
+.class1{
+
+    background-color: black;
+    color: green;
+}
+
+

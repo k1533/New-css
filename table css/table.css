@@ -1,0 +1,19 @@
+table{
+    width: 200px;
+    height: 300px;
+}
+table{
+    border: 10px solid black;
+    /* border-spacing: 0px; */
+    border-spacing: 20px;
+    /* border-collapse: collapse; */
+    /* border-collapse: separate; */
+    /* empty-cells: show; */
+    /* empty-cells: hide; */
+}
+td{
+    border: 1px dashed green;
+}
+th{
+    border: 4px double blue;
+}

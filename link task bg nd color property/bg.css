@@ -1,0 +1,46 @@
+div{
+
+    height: 670px;
+    width: 100%;
+    border: 1px solid black;
+
+
+    background-color: green;
+
+
+/* -----------background Image---------- */
+    background-image: url("image1.jpg"),url(image2.jpeg);
+    
+    /* -----------background-size--------- */ 
+    background-size: 350px;
+    background-size: 100% 100%; 
+    background-size: 300px 250px;
+    background-size: cover;
+    background-size: contain;
+    background-size: 300px 500px;
+
+
+ /*------------------   repeat ---------------------------*/  
+    background-repeat: repeat-x;
+   
+    background-repeat: repeat-y;
+
+    background-repeat: space;
+
+    background-repeat: round;
+
+    background-repeat: repeat;
+
+    background-repeat: no-repeat;
+
+    background-repeat: repeat space;
+
+    background-repeat: repeat round;
+
+    background-repeat: round space;
+
+
+     
+    
+    
+}

@@ -1,0 +1,186 @@
+@media screen AND (min-width:1000px) {
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 10px dashed red;
+    border-radius: 7px;
+    padding: 10px;
+}
+.box1{
+    text-align: center;
+    margin-bottom: 10PX;
+    border-radius: 12px;
+    font-size: 80px;
+    height: 100px;
+    background-color: aqua;
+}
+.box2{
+    font-size: 80px;
+    margin-bottom: 10PX;
+    border-radius: 12px;
+    text-align: center;
+    height: 100px;
+    background-color:burlywood;
+}
+.box3{
+    font-size: 80px;
+    border-radius: 12px;
+    text-align: center;
+    height: 100px;
+    background-color: gray;
+}
+}
+
+
+@media screen AND (min-width:800px) and (max-width:1000px)  {
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .main1{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        border: 10px dashed red;
+    
+        
+    }
+    .box4{
+        margin-bottom: 10px;
+        border-radius: 12px;
+        height: 230px;
+        background-color: green;
+        background-image: url("https://source.unsplash.com/random/?/business");
+    }
+    .box5{
+        margin-bottom: 10px;
+        border-radius: 12px;
+        height: 230px;
+        background-color: red;
+        background-image: url("https://source.unsplash.com/random/?/ocean animal");
+    }
+    .box6{
+        
+        border-radius: 12px;
+        height: 230px;
+        background-color: blue;
+        background-image: url("https://source.unsplash.com/random/?/top company");
+    }
+    }
+
+    @media screen AND (min-width:500px) and (max-width:800px)  {
+    
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main1{
+            width: 100%;
+            height: auto;
+            background-color: black;
+            border: 10px dashed red;
+        
+            
+        }
+        .box4{
+            margin-bottom: 10px;
+            border-radius: 12px;
+            height: 300px;
+            background-image: url("https://source.unsplash.com/random/?/tiger");
+        }
+        .box5{
+            margin-bottom: 10px;
+            border-radius: 12px;
+            height: 180px;
+           
+            background-image: url("https://source.unsplash.com/random/?/lion");
+        }
+        .box6{
+            
+            border-radius: 12px;
+            height: 200px;
+            background-image: url("https://source.unsplash.com/random/?/festival");
+        }
+        }
+
+        @media screen AND (min-width:200px) and (max-width:500px)  {
+    
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            .main1{
+                width: 100%;
+                height: auto;
+                background-color: black;
+                border: 10px dashed red;
+            
+                
+            }
+            .box4{
+                margin-bottom: 10px;
+                border-radius: 12px;
+                height: 180px;
+                background-image: url("https://source.unsplash.com/random/?/nature");
+            }
+            .box5{
+                margin-bottom: 10px;
+                border-radius: 12px;
+                height: 330px;
+                background-image: url("https://source.unsplash.com/random/?/climate");
+            }
+            .box6{
+                
+                border-radius: 12px;
+                height: 190px;
+                background-image: url("https://source.unsplash.com/random/?/tree");
+            }
+            }
+
+            @media screen AND (max-width:200px) {
+    
+                *{
+                    margin: 0px;
+                    padding: 0px;
+                    box-sizing: border-box;
+                }
+                .main{
+                    width: 100%;
+                    height: auto;
+                    background-color: black;
+                    border: 10px dashed red;
+                    border-radius: 7px;
+                    padding: 10px;
+                }
+                .box1{
+                    margin-bottom: 10PX;
+                    border-radius: 12px;
+                    font-size: 20px;
+                    height: 100px;
+                    background-color: aqua;
+                }
+                .box2{
+                    font-size: 20px;
+                    margin-bottom: 10PX;
+                    border-radius: 12px;
+                    height: 100px;
+                    background-color:burlywood;
+                }
+                .box3{
+                    font-size: 20px;
+                    border-radius: 12px;
+                    height: 100px;
+                    background-color: gray;
+                }
+                }

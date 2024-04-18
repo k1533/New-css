@@ -1,0 +1,102 @@
+body{
+
+   
+    background-image: url(tiger.png),url(rabbit.png),url(im1.jpg);
+    background-repeat: no-repeat;
+    background-size: 10% 15%,10% 10%,100% 100%;
+    background-position: 37% 100%,90% 100%;
+
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+
+.box{
+
+    width: 400px;
+    height: 400px;
+    border: 10px dashed aqua;
+    margin: auto;
+    margin-top: 20px;
+   
+}
+.box1{
+   
+     background-image:linear-gradient(to left top , rgb(5, 5, 61) 0px,rgb(5, 5, 61) 100px,blue 100px,blue 200px,rgb(101, 101, 171) 200px ,rgb(101, 101, 171) 300px,rgb(198, 198, 212) 300px,rgb(198, 198, 212)400px );
+
+}
+
+ 
+.box2{
+    
+    background-image:linear-gradient(to right  top , rgb(4, 34, 4) 0px,rgb(4, 34, 4) 100px , green 100px,green 200px,rgb(72, 239, 72) 200px ,rgb(72, 239, 72) 300px,rgb(72, 239, 175) 300px, rgb(72, 239, 175) 400px);
+}
+
+.box3{
+    
+    background-image:linear-gradient(to left bottom , rgb(46, 3, 3) 0px,rgb(45, 3, 3) 100px , red 100px,red 200px,rgb(209, 76, 76) 200px ,rgb(209, 76, 76) 300px,rgb(200, 128, 128) 300px, rgb(200, 128, 128) 400px);
+
+}
+
+.box4{
+    background-image:linear-gradient(to left bottom , rgb(33, 2, 33) 0px,rgb(33, 2, 33) 100px , purple 100px,purple 200px,rgb(198, 33, 198) 200px ,rgb(198, 33, 198) 300px,rgb(225, 160, 225) 300px, rgb(225, 160, 225) 400px);
+
+}
+
+.box5{
+    background-image: linear-gradient(to left bottom ,red,orange,yellow ,lightyellow,green,lightgreen,skyblue,lightblue,blue,pink,red);
+}
+
+.box6{
+    background-image: repeating-linear-gradient(to left bottom ,red,orange,yellow ,lightyellow,green,lightgreen,skyblue,lightblue,blue,pink,red);
+}
+
+.box7{
+    background-image: repeating-linear-gradient(red 0px,red 10px,yellow 10px,yellow 20px);
+}
+.box8{
+    background-image: repeating-linear-gradient(to left,red 0px,red 10px,yellow 10px,yellow 20px);
+}
+.box9{
+    background-image: repeating-linear-gradient(to left bottom,red 0px,red 10px,yellow 10px,yellow 20px);
+}
+
+.box10{
+    background-image: repeating-linear-gradient(to left top ,red 0px,red 10px,yellow 10px,yellow 20px);
+}
+
+
+.box11{
+    background-image: repeating-linear-gradient(to right top,red 0px,red 10px,yellow 10px,yellow 20px);
+}
+
+
+
+.box12{
+    
+    background-image:repeating-linear-gradient(to left bottom , rgb(46, 3, 3) 0px,rgb(45, 3, 3) 100px , red 100px,red 200px,rgb(209, 76, 76) 200px ,rgb(209, 76, 76) 300px,rgb(200, 128, 128) 300px, rgb(200, 128, 128) 400px);
+
+}
+
+
+.box13{
+   
+    background-image:repeating-linear-gradient(to left  , rgb(5, 5, 61) 0px,rgb(5, 5, 61) 100px,blue 100px,blue 200px,rgb(101, 101, 171) 200px ,rgb(101, 101, 171) 300px,rgb(198, 198, 212) 300px,rgb(198, 198, 212)400px );
+}
+
+.box14{
+   
+    background-image:repeating-linear-gradient(to right  , rgb(5, 5, 61) 0px,rgb(5, 5, 61) 100px,blue 100px,blue 200px,rgb(101, 101, 171) 200px ,rgb(101, 101, 171) 300px,rgb(198, 198, 212) 300px,rgb(198, 198, 212)400px );
+}
+
+
+.box15{
+   
+    background-image:repeating-linear-gradient(to top  , rgb(5, 5, 61) 0px,rgb(5, 5, 61) 100px,blue 100px,blue 200px,rgb(101, 101, 171) 200px ,rgb(101, 101, 171) 300px,rgb(198, 198, 212) 300px,rgb(198, 198, 212)400px );
+}
+
+.box16{
+   
+    background-image:repeating-linear-gradient(to bottom  , rgb(5, 5, 61) 0px,rgb(5, 5, 61) 100px,blue 100px,blue 200px,rgb(101, 101, 171) 200px ,rgb(101, 101, 171) 300px,rgb(198, 198, 212) 300px,rgb(198, 198, 212)400px );
+}
+
